@@ -1,3 +1,14 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+
+* { box-sizing: border-box; }
+
 .App {
-  
+  background-color: #EEE;
+  font-family: 'Roboto', sans-serif;
+}
+
+.Container {
+  max-width: 1070px;
+  margin: auto;
+  background-color: #FFF;
 }

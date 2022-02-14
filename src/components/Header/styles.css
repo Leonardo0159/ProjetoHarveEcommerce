@@ -1,0 +1,44 @@
+.Header {
+  width: 100%;
+  display: flex;
+}
+
+.LeftMenu {
+  flex: 1;
+  margin: auto;
+}
+
+.RightMenu {
+  flex: 1;
+  margin: auto;
+}
+
+.ImgMenu {
+  flex: 2;
+  margin: auto;
+}
+
+.ImgMenu img {
+  width: 100%;
+}
+
+.NavMenu {
+}
+.UlMenu {
+  display: flex;
+}
+
+.LiMenu {
+  margin-right: 25px;
+}
+
+.UlMenu,
+.LiMenu {
+  list-style: none;
+  list-style-type: none;
+}
+
+.LiMenu a {
+  text-decoration: 0;
+  color: #000;
+}

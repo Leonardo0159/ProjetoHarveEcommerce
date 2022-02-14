@@ -1,16 +1,16 @@
 import React from "react";
-import './Main.css';
-import Produto1 from '../assets/images/product-1.png'
-import Produto2 from '../assets/images/product-2.png'
-import Produto3 from '../assets/images/product-3.png'
-import Produto4 from '../assets/images/product-4.png'
-import Estrela from '../assets/images/star.png'
-import Nike from '../assets/images/nike.png'
-import Adidas from '../assets/images/adidas.png'
-import Puma from '../assets/images/puma.png'
-import Bata from '../assets/images/bata.png'
-import Rebook from '../assets/images/rebook.png'
-import Avatar from '../assets/images/avatar.png'
+import './styles.css';
+import Produto1 from '../../assets/images/product-1.png'
+import Produto2 from '../../assets/images/product-2.png'
+import Produto3 from '../../assets/images/product-3.png'
+import Produto4 from '../../assets/images/product-4.png'
+import Estrela from '../../assets/images/star.png'
+import Nike from '../../assets/images/nike.png'
+import Adidas from '../../assets/images/adidas.png'
+import Puma from '../../assets/images/puma.png'
+import Bata from '../../assets/images/bata.png'
+import Rebook from '../../assets/images/rebook.png'
+import Avatar from '../../assets/images/avatar.png'
 
 function Main() {
     return (
@@ -18,7 +18,7 @@ function Main() {
             <section>
                 {/*Call to Action*/}
             </section>
-            <section>
+            <section className="categorias">
                 <header>
                     <h2>Categorias</h2>
                 </header>
@@ -31,18 +31,20 @@ function Main() {
                     </div>
                 </div>
             </section>
-            <section id="mais-vendidos">
+            <section className="mais-vendidos">
                 <header>
                     <h2>Mais Vendidos</h2>
                 </header>
-                <div id="mais-vendidos--lista">
-                    <div id="item-1">
-                        <div class="imagem-item">
+                <div className="mais-vendidos--lista">
+                    <div className="mais-vendidos--item">
+                        <div className="imagem-item">
                             <img src={Produto1} alt="produto 1" />
                         </div>
-                        <div class="detalhes-produto">
-                            <div class="detalhes-produto--preco">
+                        <div className="info-produto">
+                            <div class="detalhes-produto">
                                 <span>Produto 1</span>
+                            </div>
+                            <div class="detalhes-preco">
                                 <span>R$ 20,00</span>
                             </div>
                             <div class="detalhes-produto--avaliacao">
@@ -51,13 +53,15 @@ function Main() {
                             </div>
                         </div>
                     </div>
-                    <div id="item-2">
-                        <div class="imagem-item">
+                    <div className="mais-vendidos--item">
+                        <div className="imagem-item">
                             <img src={Produto2} alt="produto 2" />
                         </div>
-                        <div class="detalhes-produto">
-                            <div class="detalhes-produto--preco">
+                        <div className="info-produto">
+                            <div class="detalhes-produto">
                                 <span>Produto 2</span>
+                            </div>
+                            <div class="detalhes-preco">
                                 <span>R$ 25,00</span>
                             </div>
                             <div class="detalhes-produto--avaliacao">
@@ -66,13 +70,15 @@ function Main() {
                             </div>
                         </div>
                     </div>
-                    <div id="item-3">
-                        <div class="imagem-item">
+                    <div className="mais-vendidos--item">
+                        <div className="imagem-item">
                             <img src={Produto3} alt="produto 3" />
                         </div>
-                        <div class="detalhes-produto">
-                            <div class="detalhes-produto--preco">
+                        <div className="info-produto">
+                            <div class="detalhes-produto">
                                 <span>Produto 3</span>
+                            </div>
+                            <div class="detalhes-preco">
                                 <span>R$ 30,00</span>
                             </div>
                             <div class="detalhes-produto--avaliacao">
@@ -81,14 +87,16 @@ function Main() {
                             </div>
                         </div>
                     </div>
-                    <div id="item-4">
-                        <div class="imagem-item">
+                    <div className="mais-vendidos--item">
+                        <div className="imagem-item">
                             <img src={Produto4} alt="produto 4" />
                         </div>
-                        <div class="detalhes-produto">
-                            <div class="detalhes-produto--preco">
+                        <div className="info-produto">
+                            <div class="detalhes-produto">
                                 <span>Produto 4</span>
-                                <span>R$ 35,00</span>
+                            </div>
+                            <div class="detalhes-preco">
+                                <span>R$ 40,00</span>
                             </div>
                             <div class="detalhes-produto--avaliacao">
                                 <img height="12" src={Estrela} alt="estrela" />
@@ -101,12 +109,12 @@ function Main() {
                     <a href="#">Ver mais</a>
                 </div>
             </section>
-            <section id="sessao-parceiros">
-                <a href="#"><img height="50" src={Nike} alt="logo nike" /></a>
-                <a href="#"><img height="50" src={Adidas} alt="logo adidas" /></a>
-                <a href="#"><img height="50" src={Puma} alt="logo puma" /></a>
-                <a href="#"><img height="50" src={Bata} alt="logo bata" /></a>
-                <a href="#"><img height="50" src={Rebook} alt="logo rebook" /></a>
+            <section className="sessao-parceiros">
+                <a href="#" className="link-parceiro"><img height="50" src={Nike} alt="logo nike" /></a>
+                <a href="#" className="link-parceiro"><img height="50" src={Adidas} alt="logo adidas" /></a>
+                <a href="#" className="link-parceiro"><img height="50" src={Puma} alt="logo puma" /></a>
+                <a href="#" className="link-parceiro"><img height="50" src={Bata} alt="logo bata" /></a>
+                <a href="#" className="link-parceiro"><img height="50" src={Rebook} alt="logo rebook" /></a>
             </section>
             <section>
                 <header>
