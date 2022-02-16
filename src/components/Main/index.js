@@ -104,6 +104,74 @@ function Main() {
                             </div>
                         </div>
                     </div>
+                    <div className="mais-vendidos--item">
+                        <div className="imagem-item">
+                            <img src={Produto1} alt="produto 1" />
+                        </div>
+                        <div className="info-produto">
+                            <div class="detalhes-produto">
+                                <span>Produto 1</span>
+                            </div>
+                            <div class="detalhes-preco">
+                                <span>R$ 20,00</span>
+                            </div>
+                            <div class="detalhes-produto--avaliacao">
+                                <img height="12" src={Estrela} alt="estrela" />
+                                <span>4.9 (2k avaliações)</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div className="mais-vendidos--item">
+                        <div className="imagem-item">
+                            <img src={Produto2} alt="produto 2" />
+                        </div>
+                        <div className="info-produto">
+                            <div class="detalhes-produto">
+                                <span>Produto 2</span>
+                            </div>
+                            <div class="detalhes-preco">
+                                <span>R$ 25,00</span>
+                            </div>
+                            <div class="detalhes-produto--avaliacao">
+                                <img height="12" src={Estrela} alt="estrela" />
+                                <span>4.9 (2k avaliações)</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div className="mais-vendidos--item">
+                        <div className="imagem-item">
+                            <img src={Produto3} alt="produto 3" />
+                        </div>
+                        <div className="info-produto">
+                            <div class="detalhes-produto">
+                                <span>Produto 3</span>
+                            </div>
+                            <div class="detalhes-preco">
+                                <span>R$ 30,00</span>
+                            </div>
+                            <div class="detalhes-produto--avaliacao">
+                                <img height="12" src={Estrela} alt="estrela" />
+                                <span>4.9 (2k avaliações)</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div className="mais-vendidos--item">
+                        <div className="imagem-item">
+                            <img src={Produto4} alt="produto 4" />
+                        </div>
+                        <div className="info-produto">
+                            <div class="detalhes-produto">
+                                <span>Produto 4</span>
+                            </div>
+                            <div class="detalhes-preco">
+                                <span>R$ 40,00</span>
+                            </div>
+                            <div class="detalhes-produto--avaliacao">
+                                <img height="12" src={Estrela} alt="estrela" />
+                                <span>4.9 (2k avaliações)</span>
+                            </div>
+                        </div>
+                    </div>
                 </div>
                 <div id="mais-vendidos--cta">
                     <a href="#">Ver mais</a>

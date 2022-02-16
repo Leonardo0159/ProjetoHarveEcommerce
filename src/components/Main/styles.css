@@ -8,16 +8,19 @@
 
 .mais-vendidos {
     padding-left: 25px;
+    padding-right: 25px;
 }
 
 .mais-vendidos--lista {
     display: flex;
-
+    flex-wrap: wrap;
+    margin: 0;
+    padding: 0;
 }
 
 .mais-vendidos--item {
     max-width: 250px;
-    margin-right: 25px 
+    margin-right: 5px;
 }
 
 .imagem-item img{
@@ -26,7 +29,6 @@
 }
 
 .info-produto {
-
 }
 
 .detalhes-produto{
