@@ -185,60 +185,57 @@ function Main() {
                 <a href="#" className="link-parceiro"><img height="50" src={Rebook} alt="logo rebook" /></a>
             </section>
             <section>
-                <header>
+                <header className="text-avaliacao">
                     <h2>Avaliações</h2>
                 </header>
-                <div id="sessao-avalicoes">
-                    <div id="card-1">
+                <div className="sessao-avalicoes">
+                    <div className="card">
+                        <div className="card-user">
+                            <div className="user-icon">
+                                <img height="40" src={Avatar} alt="foto perfil" />
+                            </div>
+                            <div className="user-name">
+                                <span><strong>Justus Menke</strong></span>
+                            </div>
+                        </div>
                         <p>
                             Lorem ipsum dolor, sit amet consectetur adipisicing elit.
                             Quam perferendis dolores nulla? Eius itaque aliquam illo recusandae voluptatum dolores.
                             Esse quod deserunt recusandae distinctio consequatur corporis minima saepe unde repellat?
                         </p>
-                        <div>
-                            <div>
-                                <img height="40" src={Avatar} alt="foto perfil" />
-                            </div>
-                            <div>
-                                <span><strong>Justus Menke</strong></span>
-                                <span>Manager</span>
-                            </div>
-                        </div>
                     </div>
-                    <div id="card-2">
+                    <div className="card">
+                        <div className="card-user">
+                            <div className="user-icon">
+                                <img height="40" src={Avatar} alt="foto perfil" />
+                            </div>
+                            <div className="user-name">
+                                <span><strong>Justus Menke</strong></span>
+                            </div>
+                        </div>
                         <p>
                             Lorem ipsum dolor, sit amet consectetur adipisicing elit.
                             Quam perferendis dolores nulla? Eius itaque aliquam illo recusandae voluptatum dolores.
                             Esse quod deserunt recusandae distinctio consequatur corporis minima saepe unde repellat?
                         </p>
-                        <div>
-                            <div>
-                                <img height="40" src={Avatar} alt="foto perfil" />
-                            </div>
-                            <div>
-                                <span><strong>Justus Menke</strong></span>
-                                <span>Manager</span>
-                            </div>
-                        </div>
                     </div>
-                    <div id="card-3">
+                    <div className="card">
+                        <div className="card-user">
+                            <div className="user-icon">
+                                <img height="40" src={Avatar} alt="foto perfil" />
+                            </div>
+                            <div className="user-name">
+                                <span><strong>Justus Menke</strong></span>
+                            </div>
+                        </div>
                         <p>
                             Lorem ipsum dolor, sit amet consectetur adipisicing elit.
                             Quam perferendis dolores nulla? Eius itaque aliquam illo recusandae voluptatum dolores.
                             Esse quod deserunt recusandae distinctio consequatur corporis minima saepe unde repellat?
                         </p>
-                        <div>
-                            <div>
-                                <img height="40" src={Avatar} alt="foto perfil" />
-                            </div>
-                            <div>
-                                <span><strong>Justus Menke</strong></span>
-                                <span>Manager</span>
-                            </div>
-                        </div>
                     </div>
                 </div>
-                <div>
+                <div className="card-avaliacao">
                     <h3>Faça sua avaliação</h3>
                     <form>
                         <fieldset>
