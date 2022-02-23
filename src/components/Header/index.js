@@ -4,44 +4,30 @@ import Logo from "../../assets/images/logo.png";
 
 function Header() {
   return (
-    <div className="Header">
-      <div className="LeftMenu">
-        <nav className="NavMenu">
-          <ul className="UlMenu">
-            <li className="LiMenu">
-              <a href="#">Home</a>
-            </li>
-            <li className="LiMenu">
-              <a href="#">Sobre</a>
-            </li>
-            <li className="LiMenu">
-              <a href="#">Categorias</a>
-            </li>
-            <li className="LiMenu">
-              <a href="#">Shop</a>
-            </li>
+    <header class="cabecalho">
+      <div>
+        <nav>
+          <ul>
+            <li><a href="#">Página Inicial</a></li>
+            <li><a href="#">Sobre</a></li>
+            <li><a href="#">Categorias</a></li>
+            <li><a href="#">Shop</a></li>
           </ul>
         </nav>
       </div>
-      <div className="ImgMenu">
-        <img src={Logo} />
+      <div>
+        <img class="logo" src={Logo} alt="logo do e-commerce" />
       </div>
-      <div className="RightMenu">
-        <nav className="NavMenu">
-          <ul className="UlMenu">
-            <li className="LiMenu">
-              <a href="#">lupa</a>
-            </li>
-            <li className="LiMenu">
-              <a href="#">carrinho</a>
-            </li>
-            <li className="LiMenu">
-              <a href="#">login</a>
-            </li>
+      <div>
+        <nav>
+          <ul>
+            <li><a href="#">lupa</a></li>
+            <li><a href="#">carrinho</a></li>
+            <li><a href="./pages/login.html">login</a></li>
           </ul>
         </nav>
       </div>
-    </div>
+    </header>
   );
 }
 

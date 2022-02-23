@@ -1,44 +1,36 @@
-.Header {
-  width: 100%;
+.cabecalho {
+  /* 
+    Guia de Flexbox:
+    https://css-tricks.com/snippets/css/a-guide-to-flexbox/ 
+  */
   display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  padding: .5rem;
+  background: #fffff2;
+  /* 
+    https://cssgenerator.org/box-shadow-css-generator.html 
+    https://materializecss.com/shadow.html
+  */ 
 }
 
-.LeftMenu {
-  flex: 1;
-  margin: auto;
+a[href] {
+  color: #aaaaac;
+  text-decoration: none;
 }
 
-.RightMenu {
-  flex: 1;
-  margin: auto;
+a[href]:hover,
+a[href]:active {
+  /* font-size: larger; */
+  font-weight: bold;
+  color: #707070;
 }
 
-.ImgMenu {
-  flex: 2;
-  margin: auto;
+a[href]:active {
+  opacity: .6;
 }
 
-.ImgMenu img {
-  width: 100%;
-}
-
-.NavMenu {
-}
-.UlMenu {
-  display: flex;
-}
-
-.LiMenu {
-  margin-right: 25px;
-}
-
-.UlMenu,
-.LiMenu {
-  list-style: none;
-  list-style-type: none;
-}
-
-.LiMenu a {
-  text-decoration: 0;
-  color: #000;
+.cabecalho .logo {
+  max-width: 200px;
 }
