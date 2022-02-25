@@ -1,0 +1,12 @@
+.sessao-parceiros {
+    background-color: #393939;
+    margin-top: 50px;
+    padding: 2rem 5rem;
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  .sessao-parceiros a img{
+    max-width: 150px;
+    filter: opacity(0.8) drop-shadow(0 0 0 white) brightness(20000%); 
+  }

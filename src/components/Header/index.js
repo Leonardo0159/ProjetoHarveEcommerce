@@ -1,6 +1,7 @@
 import React from "react";
 import "./styles.css";
 import Logo from "../../assets/images/logo.png";
+import { Link } from "react-router-dom";
 
 function Header() {
   return (
@@ -8,22 +9,22 @@ function Header() {
       <div>
         <nav>
           <ul>
-            <li><a href="#">Página Inicial</a></li>
-            <li><a href="#">Sobre</a></li>
-            <li><a href="#">Categorias</a></li>
-            <li><a href="#">Shop</a></li>
+            <li><Link to="/">Página Inicial</Link></li>
+            <li><Link to="/sobre">Sobre</Link></li>
+            <li><Link to="/">Categorias</Link></li>
+            <li><Link to="/shop">Shop</Link></li>
           </ul>
         </nav>
       </div>
       <div>
-        <img class="logo" src={Logo} alt="logo do e-commerce" />
+        <Link to="/"><img class="logo" src={Logo} alt="logo do e-commerce" /></Link>
       </div>
       <div>
         <nav>
           <ul>
-            <li><a href="#">lupa</a></li>
-            <li><a href="#">carrinho</a></li>
-            <li><a href="./pages/login.html">login</a></li>
+            <li><Link to="/">lupa</Link></li>
+            <li><Link to="/carrinho">carrinho</Link></li>
+            <li><Link to="/login">login</Link></li>
           </ul>
         </nav>
       </div>

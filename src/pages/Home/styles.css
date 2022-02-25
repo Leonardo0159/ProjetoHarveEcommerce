@@ -1,0 +1,19 @@
+main {
+    width: 80vw;
+    margin-left: 10vw;
+    background-color: #fffff2;
+  }
+  
+  a[role="button"],
+  button,
+  input[type="submit"] {
+    background-color: #766760;
+    padding: 1.5rem 2rem;
+    color: white;
+  }
+  
+  a[role="button"]:hover,
+  button:hover,
+  input[type="submit"]:hover {
+    opacity: .6;
+  }

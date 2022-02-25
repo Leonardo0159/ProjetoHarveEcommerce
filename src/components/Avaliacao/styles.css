@@ -1,0 +1,43 @@
+.avaliacao {
+    padding-left: 5rem;
+    padding-right: 5rem;
+  }
+  
+  .sessao-avaliacoes {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    gap: 20px;
+  }
+
+  .card {
+    height: 20rem;
+    width: 18rem;
+    padding: 2rem 1rem;
+    border: 1px solid #CCCCCC;
+    display: flex;
+    flex-direction: column;
+  }
+
+  .card-top {
+    flex: 3;
+    display: flex;
+    align-items: center;
+    text-align: justify;
+  }
+
+  .card-bottom {
+    flex: 1;
+  }
+
+  .card-user {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 1rem;
+  }
+
+  .card-user--name {
+    display: flex;
+    flex-direction: column;
+  }
