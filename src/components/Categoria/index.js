@@ -69,7 +69,7 @@ export const Categoria = () => {
   ];
 
   return (
-    <section>
+    <section id="category">
       <header>
         <h2 class="title-category">Categorias</h2>
       </header>
