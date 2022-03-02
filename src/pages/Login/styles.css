@@ -1,3 +1,90 @@
 .login {
-    background-color: red;
+    width: 80vw;
+    height: 100vh;
+    margin-left: 10vw;
+    background-color: #fffff2;
+    display: flex;
+    justify-content: center;
+}
+
+.box-login {
+    width: 80%;
+    height: 27rem;
+    background-color: #aaa;
+    margin-top: 5rem;
+    display: flex;
+    flex-direction: row;
+    border-radius: 5px;
+}
+
+.side-left {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    color: white;
+}
+
+.side-left h2{
+    margin-top: 2rem;
+}
+
+.form-left {
+    margin-top: 2rem;
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+}
+
+.form-left input{
+    height: 3rem;
+    margin: 0 2rem;
+    padding-left: 1rem;
+    background-color: #aaa;
+    border: 1px solid white;
+    border-radius: 5px;
+}
+.form-left input::placeholder{
+    color: white;
+}
+
+.form-left input:focus{
+    box-shadow: 0 0 0 0;
+    outline: 0;
+}
+
+.form-left button{
+    height: 4rem;
+    margin: 0 2rem;
+    border: none;
+    border-radius: 5px;
+    background-color: #ff0025;
+}
+
+.side-right {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    color: white;
+}
+
+.side-right h2{
+    margin-top: 2rem;
+}
+
+.form-right {
+    margin-top: 2rem;
+    padding-top: 2rem;
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+}
+
+.form-right button{
+    height: 4rem;
+    margin: 0 2rem;
+    border: none;
+    border-radius: 5px;
+    background-color: #009e2a;
 }

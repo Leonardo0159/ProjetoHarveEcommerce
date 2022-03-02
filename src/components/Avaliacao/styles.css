@@ -4,6 +4,7 @@
   }
   
   .sessao-avaliacoes {
+    padding-bottom: 5rem;
     display: flex;
     flex-direction: row;
     justify-content: space-between;

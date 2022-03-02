@@ -50,7 +50,7 @@ export const Avaliacao = () => {
             </div>
           ))}
         </div>
-        <div>
+        {/*<div>
           <h3>Faça sua avaliação</h3>
           <form>
             <fieldset>
@@ -93,7 +93,7 @@ export const Avaliacao = () => {
             </fieldset>
             <button type="submit">Enviar</button>
           </form>
-        </div>
+        </div>*/}
       </section>
     );
 }

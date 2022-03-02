@@ -15,6 +15,22 @@
   */ 
 }
 
+.header-left {
+  flex: 1;
+}
+
+.header-center {
+  flex: 1;
+  display: flex;
+  justify-content: center;
+}
+
+.header-right {
+  flex: 1;
+  display: flex;
+  justify-content: end;
+}
+
 a[href] {
   color: #aaaaac;
   text-decoration: none;
@@ -33,4 +49,19 @@ a[href]:active {
 
 .cabecalho .logo {
   max-width: 200px;
+}
+
+.header-icon {
+  max-width: 2rem;
+  max-height: 2rem;
+}
+
+.header-icon img {
+  filter: opacity(0.8) drop-shadow(0 0 0 #aaaaae) brightness(250%); 
+  height: 100%;
+  width: 100%;
+}
+
+.header-icon img:hover {
+  filter: opacity(0.8) drop-shadow(0 0 0 #707070) brightness(200%); 
 }
