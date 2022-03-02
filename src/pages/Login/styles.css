@@ -62,6 +62,10 @@
     background-color: #ff0025;
 }
 
+.form-left button:hover{
+    cursor: pointer;
+}
+
 .side-right {
     flex: 1;
     display: flex;
@@ -88,4 +92,8 @@
     border: none;
     border-radius: 5px;
     background-color: #009e2a;
+}
+
+.form-right button:hover{
+    cursor: pointer;
 }
