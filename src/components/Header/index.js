@@ -1,6 +1,6 @@
 import React from "react";
 import "./styles.css";
-import Logo from "../../assets/images/logo.png";
+import Logo from "../../assets/images/logo2.png";
 import userIcon from "../../assets/icon/account.png";
 import cartIcon from "../../assets/icon/cart.png";
 import lupaIcon from "../../assets/icon/lupa.png";
