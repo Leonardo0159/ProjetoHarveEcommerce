@@ -10,7 +10,7 @@
 .box-login {
     width: 80%;
     height: 27rem;
-    background-color: #aaa;
+    background-color: #393939;
     margin-top: 5rem;
     display: flex;
     flex-direction: row;
@@ -40,9 +40,10 @@
     height: 3rem;
     margin: 0 2rem;
     padding-left: 1rem;
-    background-color: #aaa;
+    background-color: #393939;
     border: 1px solid white;
     border-radius: 5px;
+    color: white;
 }
 .form-left input::placeholder{
     color: white;

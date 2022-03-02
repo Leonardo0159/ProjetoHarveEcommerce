@@ -7,7 +7,7 @@
   flex-direction: row;
   justify-content: space-between;
   align-items: center;
-  padding: .5rem;
+  padding: 0 2rem;
   background: #fffff2;
   /* 
     https://cssgenerator.org/box-shadow-css-generator.html 
@@ -48,7 +48,8 @@ a[href]:active {
 }
 
 .cabecalho .logo {
-  max-width: 200px;
+  margin-top: 1rem;
+  max-width: 300px;
 }
 
 .header-icon {
